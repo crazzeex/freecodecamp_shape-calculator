@@ -1,7 +1,11 @@
+This is the code written for PROJECT4 for https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/polygon-area-calculator
+
+Feel free to leave any comments to suggest ways in which the code can be improved! This will be much appreciated! If you would like to run all test cases, you may refer to the link above or configure the test_module file accordingly. Cheers!
+
 ### Assignment
 In this project you will use object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes.
 
-##Rectangle class
+#### Rectangle class
 When a Rectangle object is created, it should be initialized with width and height attributes. The class should also contain the following methods:
 
 - set_width
@@ -13,7 +17,7 @@ When a Rectangle object is created, it should be initialized with width and heig
 - get_amount_inside: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
 Additionally, if an instance of a Rectangle is represented as a string, it should look like: Rectangle(width=5, height=10)
 
-##Square class
+#### Square class
 The Square class should be a subclass of Rectangle. When a Square object is created, a single side length is passed in. The __init__ method should store the side length in both the width and height attributes from the Rectangle class.
 
 The Square class should be able to access the Rectangle class methods but should also contain a set_side method. If an instance of a Square is represented as a string, it should look like: Square(side=9)
